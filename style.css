@@ -16,3 +16,15 @@
 @media(max-width:940px){.hero-inner,.section-head,.products,.about-grid,.app-grid{grid-template-columns:1fr}.hero{min-height:auto}.brand-panel{min-height:430px}.stats-grid{grid-template-columns:1fr}.stat{padding:20px 0;border-right:0;border-bottom:1px solid var(--line2)}.stat:last-child{border-bottom:0}.cap-grid{grid-template-columns:1fr}.cap .num{margin-bottom:24px}.section-head{align-items:start}.side-card{position:static}}
 @media(max-width:720px){.container{width:min(calc(100% - 28px),var(--max))}.nav{height:70px}.brand-text span{display:none}.menu{display:grid}.nav-links{display:none;position:absolute;left:14px;right:14px;top:78px;flex-direction:column;align-items:stretch;padding:12px;background:rgba(8,8,8,.98);border:1px solid var(--line2);border-radius:16px;box-shadow:var(--shadow)}.nav-links.open{display:flex}.nav-links a{padding:12px}.hero-inner{padding:62px 0 76px;gap:40px}.hero h1{font-size:clamp(3.2rem,15vw,5rem)}.brand-panel{min-height:350px;border-radius:24px}.brand-panel:before{width:280px;height:280px}.brand-panel:after{width:350px;height:350px}.brand-panel img{width:72%}.float-chip{left:18px;right:18px;bottom:18px}.section{padding:78px 0}.product-card{min-height:420px;padding:26px}.feature-grid{grid-template-columns:1fr}.footer-grid{grid-template-columns:1fr 1fr}.footer-brand{grid-column:1/-1}.footer-bottom{flex-direction:column}.principle{grid-template-columns:1fr;gap:6px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{opacity:1;transform:none;transition:none}}
+
+/* LockIn / Apps additions */
+.status.live{color:#cfe9c7}.status.live i{background:#7bd66d;box-shadow:0 0 0 5px rgba(123,214,109,.08)}
+.lockin-hero{background:radial-gradient(circle at 78% 25%,rgba(242,199,102,.13),transparent 30%),linear-gradient(180deg,#050505 0%,#070604 100%)}
+.play-note{margin-top:14px;color:#8f887d;font-size:.82rem}
+.full-btn{width:100%;margin-top:24px}
+.link-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.legal-card{min-height:180px;padding:28px;border:1px solid var(--line2);border-radius:22px;background:linear-gradient(145deg,rgba(255,255,255,.04),rgba(255,255,255,.012));display:flex;flex-direction:column;gap:10px;transition:.2s ease}
+.legal-card:hover{transform:translateY(-3px);border-color:var(--line)}
+.legal-card strong{font-size:1.15rem}.legal-card span{color:var(--muted);font-size:.92rem}.legal-card .arrow{margin-top:auto;color:var(--gold);font-weight:800}
+.single-product{grid-template-columns:minmax(0,1fr);max-width:760px}
+@media (max-width:800px){.link-grid{grid-template-columns:1fr}.single-product{max-width:none}}
